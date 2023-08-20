@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="logo.png">
+  <title>Tienda de Comida para Mascotas</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <img src="logo.png" alt="Logo de la tienda">
+        </div>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#tienda">Tienda</a></li>
+          <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" placeholder="Buscar">
+          <button class="search-button">Buscar</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section" id="inicio">
+    <h1>Tienda de Comida para Mascotas</h1>
+    <p>¡Bienvenido a nuestra tienda en línea! Aquí encontrarás una variedad de comidas saludables para tus queridas mascotas.</p>
+  </section>
+
+  <section class="section" id="tienda">
+    <div class="producto">
+      <img src="imagen_producto2.png" alt="Comida para perros">
+      <h3>Comida para perros</h3>
+      <p>Una selección de alimentos nutritivos para mantener a tu perro feliz y saludable.</p>
+      <input type="number" class="cantidad-input" value="0" min="0">
+      <button class="agregar-carrito-button">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="imagen_producto1.png" alt="Comida para gatos">
+      <h3>Comida para gatos</h3>
+      <p>Deliciosas opciones de comida que satisfarán el paladar exigente de tu gato.</p>
+      <input type="number" class="cantidad-input" value="0" min="0">
+      <button class="agregar-carrito-button">Agregar al carrito</button>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+
+  <section class="section" id="sobre-nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>Somos un equipo apasionado por brindar opciones de alimentación de alta calidad para tus mascotas. Nuestra misión es asegurarnos de que cada amigo peludo reciba los mejores nutrientes.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Tienda de Comida para Mascotas. Todos los derechos reservados.</p>
+  </footer>
+  
+  <!-- Botón de compras en la esquina superior derecha -->
+  <button id="carrito-button" class="comprar-button">Comprar (0)</button>
+</body>
+</html>

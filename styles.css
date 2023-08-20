@@ -1,0 +1,264 @@
+
+  /* Estilos existentes */
+  body {
+    background: linear-gradient(to bottom, #5DADE2, #9B59B6);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    /* Otra propiedad de estilo aquí */
+}
+  
+  header {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #FFC300;
+  }
+  
+  .section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #tienda-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #tienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .producto {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-align: center;
+    flex: 0 0 calc(33.33% - 40px);
+    max-width: calc(33.33% - 40px);
+  }
+  
+  .producto:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+/* Estilos para el botón de agregar al carrito */
+.cantidad-input {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .agregar-carrito-button {
+    background-color: #FFC300;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .agregar-carrito-button:hover {
+    background-color: #333;
+    color: #FFC300;
+  }
+  
+  /* Estilos para el botón de compras en la esquina superior derecha */
+  #carrito-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFC300;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #carrito-button:hover {
+    background-color: #333;
+    color: #FFC300;
+  }
+  
+
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    transition: background-color 0.3s, height 0.3s;
+  }
+  
+  header.nav-visible {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 60px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #FFC300;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    transition: background-color 0.3s, height 0.3s;
+  }
+  
+  header.nav-visible {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 60px;
+  }
+  
+  /* Estilos para la barra de navegación */
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    max-height: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #FFC300;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    background-color: #FFC300;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #333;
+    color: #FFC300;
+  }
+
+.product-category {
+    margin-bottom: 40px;
+  }
+  
+  .product-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el botón de compras en la esquina inferior derecha */
+
+
+
+
+  
+  
